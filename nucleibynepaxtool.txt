@@ -1,0 +1,399 @@
+echo "Welcome to Nuclei Shooting Club" | notify -provider discord;
+echo " Shooting Nuclei For airflow" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/airflow -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for airflow" | notify -provider discord;
+
+echo " Shooting Nuclei For exposed" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/exposed -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for exposed" | notify -provider discord;
+
+echo " Shooting Nuclei For ldap" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/ldap -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for ldap" | notify -provider discord;
+
+echo " Shooting Nuclei For sap" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/sap -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for sap" | notify -provider discord;
+
+echo " Shooting Nuclei For apache" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/apache -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for apache" | notify -provider discord;
+
+echo " Shooting Nuclei For extract" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/extract -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for extract" | notify -provider discord;
+
+echo " Shooting Nuclei For local_file_inclusion" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/local_file_inclusion -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for local_file_inclusion" | notify -provider discord;
+
+echo " Shooting Nuclei For search" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/search -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for search" | notify -provider discord;
+
+echo " Shooting Nuclei For api" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/api -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for api" | notify -provider discord;
+
+echo " Shooting Nuclei For favicon" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/favicon -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for favicon" | notify -provider discord;
+
+echo " Shooting Nuclei For magento" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/magento -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for magento" | notify -provider discord;
+
+echo " Shooting Nuclei For sensitive" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/sensitive -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for sensitive" | notify -provider discord;
+
+echo " Shooting Nuclei For atlassian" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/atlassian -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for atlassian" | notify -provider discord;
+
+echo " Shooting Nuclei For ftp" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/ftp -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for ftp" | notify -provider discord;
+
+echo " Shooting Nuclei For microsoft" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/microsoft -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for microsoft" | notify -provider discord;
+
+echo " Shooting Nuclei For sharepoint" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/sharepoint -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for sharepoint" | notify -provider discord;
+
+echo " Shooting Nuclei For auth" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/auth -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for auth" | notify -provider discord;
+
+echo " Shooting Nuclei For fuzz" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/fuzz -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for fuzz" | notify -provider discord;
+
+echo " Shooting Nuclei For mongodb" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/mongodb -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for mongodb" | notify -provider discord;
+
+echo " Shooting Nuclei For shopify" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/shopify -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for shopify" | notify -provider discord;
+
+echo " Shooting Nuclei For aws" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/aws -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for aws" | notify -provider discord;
+
+echo " Shooting Nuclei For gcloud" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/gcloud -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for gcloud" | notify -provider discord;
+
+echo " Shooting Nuclei For mysql" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/mysql -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for mysql" | notify -provider discord;
+
+echo " Shooting Nuclei For smtp" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/smtp -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for smtp" | notify -provider discord;
+
+echo " Shooting Nuclei For backup" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/backup -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for backup" | notify -provider discord;
+
+echo " Shooting Nuclei For git" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/git -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for git" | notify -provider discord;
+
+echo " Shooting Nuclei For netlify" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/netlify -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for netlify" | notify -provider discord;
+
+echo " Shooting Nuclei For social" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/social -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for social" | notify -provider discord;
+
+echo " Shooting Nuclei For cisco" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/cisco -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for cisco" | notify -provider discord;
+
+echo " Shooting Nuclei For google" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/google -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for google" | notify -provider discord;
+
+echo " Shooting Nuclei For nginx" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/nginx -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for nginx" | notify -provider discord;
+
+echo " Shooting Nuclei For sql" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/sql -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for sql" | notify -provider discord;
+
+echo " Shooting Nuclei For coldfusion" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/coldfusion -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for coldfusion" | notify -provider discord;
+
+echo " Shooting Nuclei For graphite" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/graphite -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for graphite" | notify -provider discord;
+
+echo " Shooting Nuclei For nodejs" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/nodejs -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for nodejs" | notify -provider discord;
+
+echo " Shooting Nuclei For sql_injection" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/sql_injection -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for sql_injection" | notify -provider discord;
+
+echo " Shooting Nuclei For config" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/config -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for config" | notify -provider discord;
+
+echo " Shooting Nuclei For graphql" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/graphql -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for graphql" | notify -provider discord;
+
+echo " Shooting Nuclei For open_redirect" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/open_redirect -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for open_redirect" | notify -provider discord;
+
+echo " Shooting Nuclei For ssh" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/ssh -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for ssh" | notify -provider discord;
+
+echo " Shooting Nuclei For cpanel" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/cpanel -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for cpanel" | notify -provider discord;
+
+echo " Shooting Nuclei For header" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/header -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for header" | notify -provider discord;
+
+echo " Shooting Nuclei For oracle" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/oracle -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for oracle" | notify -provider discord;
+
+echo " Shooting Nuclei For ssrf" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/ssrf -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for ssrf" | notify -provider discord;
+
+echo " Shooting Nuclei For crlf_injection" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/crlf_injection -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for crlf_injection" | notify -provider discord;
+
+echo " Shooting Nuclei For http" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/http -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for http" | notify -provider discord;
+
+echo " Shooting Nuclei For other" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/other -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for other" | notify -provider discord;
+
+echo " Shooting Nuclei For subdomain_takeover" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/subdomain_takeover -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for subdomain_takeover" | notify -provider discord;
+
+echo " Shooting Nuclei For cross_site_request_forgery" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/cross_site_request_forgery -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for cross_site_request_forgery" | notify -provider discord;
+
+echo " Shooting Nuclei For ibm" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/ibm -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for ibm" | notify -provider discord;
+
+echo " Shooting Nuclei For perl" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/perl -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for perl" | notify -provider discord;
+
+echo " Shooting Nuclei For template_injection" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/template_injection -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for template_injection" | notify -provider discord;
+
+echo " Shooting Nuclei For cve" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/cve -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for cve" | notify -provider discord;
+
+echo " Shooting Nuclei For injection" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/injection -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for injection" | notify -provider discord;
+
+echo " Shooting Nuclei For php" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/php -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for php" | notify -provider discord;
+
+echo " Shooting Nuclei For upload" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/upload -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for upload" | notify -provider discord;
+
+echo " Shooting Nuclei For debug" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/debug -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for debug" | notify -provider discord;
+
+echo " Shooting Nuclei For java" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/java -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for java" | notify -provider discord;
+
+echo " Shooting Nuclei For postgres" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/postgres -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for postgres" | notify -provider discord;
+
+echo " Shooting Nuclei For vmware" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/vmware -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for vmware" | notify -provider discord;
+
+echo " Shooting Nuclei For default" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/default -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for default" | notify -provider discord;
+
+echo " Shooting Nuclei For javascript" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/javascript -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for javascript" | notify -provider discord;
+
+echo " Shooting Nuclei For python" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/python -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for python" | notify -provider discord;
+
+echo " Shooting Nuclei For web" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/web -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for web" | notify -provider discord;
+
+echo " Shooting Nuclei For detect" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/detect -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for detect" | notify -provider discord;
+
+echo " Shooting Nuclei For jenkins" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/jenkins -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for jenkins" | notify -provider discord;
+
+echo " Shooting Nuclei For rabbitmq" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/rabbitmq -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for rabbitmq" | notify -provider discord;
+
+echo " Shooting Nuclei For wordpress" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/wordpress -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for wordpress" | notify -provider discord;
+
+echo " Shooting Nuclei For directory_listing" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/directory_listing -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for directory_listing" | notify -provider discord;
+
+echo " Shooting Nuclei For joomla" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/joomla -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for joomla" | notify -provider discord;
+
+echo " Shooting Nuclei For redis" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/redis -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for redis" | notify -provider discord;
+
+echo " Shooting Nuclei For xml_external_entity" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/xml_external_entity -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for xml_external_entity" | notify -provider discord;
+
+echo " Shooting Nuclei For docker" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/docker -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for docker" | notify -provider discord;
+
+echo " Shooting Nuclei For kafka" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/kafka -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for kafka" | notify -provider discord;
+
+echo " Shooting Nuclei For remote_code_execution" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/remote_code_execution -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for remote_code_execution" | notify -provider discord;
+
+echo " Shooting Nuclei For xss" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/xss -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for xss" | notify -provider discord;
+
+echo " Shooting Nuclei For drupal" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/drupal -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for drupal" | notify -provider discord;
+
+echo " Shooting Nuclei For kong" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/kong -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for kong" | notify -provider discord;
+
+echo " Shooting Nuclei For ruby" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/ruby -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for ruby" | notify -provider discord;
+
+echo " Shooting Nuclei For adobe" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/adobe -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for adobe" | notify -provider discord;
+
+echo " Shooting Nuclei For elk" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/elk -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for elk" | notify -provider discord;
+
+echo " Shooting Nuclei For laravel" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/laravel -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for laravel" | notify -provider discord;
+
+echo " Shooting Nuclei For samba" | notify -provider discord;
+ nuclei -l urls.txt -t ~/Nuclei-Templates-Collection/categorized_templates/samba -silent -rl 100 | notify -provider discord; 
+ echo "Scanning  job finished for samba" | notify -provider discord;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
